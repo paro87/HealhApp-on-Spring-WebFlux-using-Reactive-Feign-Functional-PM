@@ -1,11 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bb096d0c-d782-428d-ac73-d3fb2418702c" name="Default Changelist" comment="" />
+    <list default="true" id="bb096d0c-d782-428d-ac73-d3fb2418702c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/department-service/src/main/java/com/paro/departmentservice/handler/DepartmentHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/department-service/src/main/java/com/paro/departmentservice/handler/DepartmentHandler.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -15,6 +25,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1ViLFlLcAH3PLHbFzsjOsvSWdaA" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -28,8 +39,8 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="jdk.selected.JAVA_MODULE" value="11" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/configuration-service/src/main/resources/config" />
+    <property name="jdk.selected.JAVA_MODULE" value="13" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/actuator-service/src/main/resources" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -42,14 +53,21 @@
       <recent name="com.paro.gatewayservice" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\PAROS\IdeaProjects\HealthAppOpenFeignFunctional\actuator-service\src\main\resources" />
       <recent name="C:\Users\PAROS\IdeaProjects\HealthAppOpenFeignFunctional\configuration-service\src\main\resources\config" />
+      <recent name="C:\Users\PAROS\IdeaProjects\HealthAppOpenFeignFunctional\actuator-service" />
       <recent name="C:\Users\PAROS\IdeaProjects\HealthAppOpenFeignFunctional\patient-service\src\main\resources" />
       <recent name="C:\Users\PAROS\IdeaProjects\HealthAppOpenFeignFunctional\patient-service\src\main\java\com\paro\patientservice\config" />
-      <recent name="C:\Users\PAROS\IdeaProjects\HealthAppOpenFeignFunctional\department-service\src\main\java\com\paro\departmentservice" />
-      <recent name="C:\Users\PAROS\IdeaProjects\HealthAppOpenFeignFunctional\hospital-service\src\main\java\com\paro\hospitalservice" />
     </key>
   </component>
   <component name="RunManager" selected="Spring Boot.HospitalServiceApplication">
+    <configuration name="ActuatorServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="actuator-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.paro.actuatorservice.ActuatorServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ConfigurationServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="configuration-service" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.paro.configurationservice.ConfigurationServiceApplication" />
@@ -135,7 +153,10 @@
       <workItem from="1578210352120" duration="1803000" />
       <workItem from="1578247808015" duration="2131000" />
       <workItem from="1578424117848" duration="6072000" />
-      <workItem from="1578491097978" duration="755000" />
+      <workItem from="1578491097978" duration="1451000" />
+      <workItem from="1578730009548" duration="1720000" />
+      <workItem from="1578946000357" duration="1242000" />
+      <workItem from="1579078163827" duration="1350000" />
     </task>
     <servers />
   </component>
@@ -179,9 +200,9 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1237" height="332" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1578431513289" />
-    <state x="181" y="64" key="new project wizard" timestamp="1578077576605">
+    <state x="181" y="64" key="new project wizard" timestamp="1579078232299">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="181" y="64" key="new project wizard/0.0.1280.680@0.0.1280.680" timestamp="1578077576605" />
+    <state x="181" y="64" key="new project wizard/0.0.1280.680@0.0.1280.680" timestamp="1579078232299" />
   </component>
 </project>

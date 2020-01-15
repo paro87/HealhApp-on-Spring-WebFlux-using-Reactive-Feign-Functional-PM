@@ -19,7 +19,6 @@ import static org.springframework.web.reactive.function.BodyInserters.fromPublis
 import static org.springframework.web.reactive.function.server.ServerResponse.ok;
 
 @Component
-
 public class DepartmentHandler {
 
     private static final Logger LOGGER = LoggerFactory.getLogger(DepartmentHandler.class);
